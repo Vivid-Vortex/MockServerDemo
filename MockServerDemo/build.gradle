@@ -17,6 +17,10 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+
+	implementation 'org.mock-server:mockserver-netty:5.15.0'
+	implementation 'org.mock-server:mockserver-client-java:5.15.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
